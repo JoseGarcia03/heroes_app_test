@@ -107,3 +107,16 @@ main {
 .movie:hover .overview{ /* Estos estilos se aplican tanto a la clase movie cuado se le hace hover como al overview */
     transform: translateY(0);
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secundary-color);
+}
+
+footer p {
+    color: #FFF;
+    margin: 5px;
+}
